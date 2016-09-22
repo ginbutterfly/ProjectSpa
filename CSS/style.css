@@ -1,0 +1,47 @@
+
+* {
+
+	box-sizing: border-box;
+
+}
+
+	header {
+	width:100%;
+	background-image: url("../images/bamboo.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+}
+
+nav {
+	background-color: #4e7526;
+	position: fixed; 
+	height: 75px;
+	top:0px;
+	width: 100%;
+	z-index: 100000;
+	color: white;
+/*	padding: 20px 100px 0px 100px;
+*/
+}
+
+.links{
+	margin: auto;
+	width:200px;
+	height: 20px;
+
+}
+
+body {
+	margin: 0px;
+	background-color: #eef3a9;
+}
+
+#jar {
+	width: 925px;
+	height:3000px;
+	margin: 50px auto;
+	padding:50px;
+
+}
