@@ -4,12 +4,16 @@ $("button").hide();
 $(document).ready(function(){
 
 	$("#treatment1").click(function(){
-        $(".dropbtn1").slideToggle("slow");
-    });
+      $(".dropbtn1").slideToggle("slow");
+   });
 
-  $("#treatment2").click(function(){
-        $(".dropbtn2").slideToggle("slow");
-    });
+   $("#treatment2").click(function(){
+   	$(".dropbtn2").slideToggle("slow");
+   });
+
+	$("#treatment3").click(function(){
+   	$(".dropbtn3").slideToggle("slow");
+   });
 
 });
 
