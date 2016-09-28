@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+	font-size: 48px;
+
+}
+
+h4 {
+	text-align: center;
+}
+
+.input {
+    width: 100%;
+}
+
+.button {
+	background-color: green;
+}
+
+form {
+	margin: 0 auto;
+	width: 900px;
+}
