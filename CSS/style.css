@@ -10,8 +10,9 @@
 	background-image: url("../images/bamboo.jpg");
 	background-attachment: fixed;
 	position: relative;
-	height: 500px;
+	height: 575px;
 	background-size: cover;
+	padding-top: 75px;
 
 }
 
@@ -35,7 +36,7 @@
 
 }
 
-header .book{
+.book{
 	width:100%;
 	background-image: url("../images/water.jpg");
 	background-attachment: fixed;
@@ -59,6 +60,19 @@ nav {
 	position: fixed; 
 	height: 75px;
 	top:-250px;
+	width: 100%;
+	z-index: 100001;
+	color: white;
+	margin: auto;
+
+}
+
+.fix {
+	
+	background-color:#303a35;
+	position: fixed; 
+	height: 75px;
+	top:0px;
 	width: 100%;
 	z-index: 100001;
 	color: white;
