@@ -1,3 +1,7 @@
+nav {
+    top: 0px;
+    
+}
 h1 {
 	text-align: center;
 	font-size: 48px;
@@ -15,11 +19,12 @@ h4 {
 form {
 	margin: 50px auto;
 	width: 900px;
+	font-family: oxygen;
 }
 
 .box {
 	width: 925px;
-	height:500px;
+	height:400px;
 	margin: 50px auto;
 	padding:50px;
 
@@ -33,5 +38,6 @@ form {
 button.submit {
 	display: block;
 	margin-top: 10px;
+	float: right;
 
 }
