@@ -5,7 +5,7 @@
 
 }
 
-header {
+.home{
 	width:100%;
 	background-image: url("../images/bamboo.jpg");
 	background-attachment: fixed;
@@ -15,6 +15,35 @@ header {
 
 }
 
+ .gallery{
+	width:100%;
+	background-image: url("../images/rose.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+
+}
+
+.services{
+	width:100%;
+	background-image: url("../images/leaves.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+
+}
+
+header .book{
+	width:100%;
+	background-image: url("../images/water.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+
+}
 
 header h1{
 
