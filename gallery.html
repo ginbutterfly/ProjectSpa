@@ -1,55 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="CSS/style.css">
-<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-	<title>Go Green Organic Spa</title>
-</head>
-<body>
-	<nav>
-	<div id="logo"><img src="images/logo-1.png"></div>
-		<ul class="links">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Services</a> </li>
-		
- 		<li class="left"><a href="#">About</a></li>
-		<li><a href="#">Book</a> </li>
-		</ul>
-	
-	</nav>
+	<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+		<title>Go Green Organic Spa</title>
+	</head>
+	<body>
+		<nav class="fix">
+			<div id="logo">
+				<img src="images/logo-1.png">
+			</div>
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a> </li>
 
-	
+				<li class="left"><a href="Gallery.html">Gallery</a></li>
+				<li><a href="book.html">Book</a> </li>
+			</ul>
+
+		</nav>
+
+
 		<header class="gallery">
 			<h1 class="intro">Gallery</h1>
 		</header>
 
-	<div id="jar"> 
+		<div id="jar"> 
 
-		<div class="float">
-<img src="images/o-1.jpg">
-<img src="images/o-4.jpg">
-<img src="images/o-3.jpg">
-<img src="images/o-2.jpg">
-<img src="images/o.jpg">
+			<div class="float">
+				<img src="images/o-1.jpg">
+				<img src="images/o-4.jpg">
+				<img src="images/o-3.jpg">
+				<img src="images/o-2.jpg">
+				<img src="images/o.jpg">
 
-		</div>
-</div>	
+			</div>
+		</div>	
 
 
 
-	<script src="script/jquery-3.1.1.min.js"></script>
+		<script src="script/jquery-3.1.1.min.js"></script>
 
-<script>
-	$(document).ready(function() {
-$(".intro").hide();
 
-$("nav").animate({top: '0px'},500,function() {
-$(".intro").fadeIn(5000);
-
-});
-
-});
-
-</script>
-</body>
-</html>
+	</body>
+	</html>
