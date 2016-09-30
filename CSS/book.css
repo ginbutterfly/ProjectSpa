@@ -12,11 +12,26 @@ h4 {
     width: 100%;
 }
 
-.button {
-	background-color: green;
+form {
+	margin: 50px auto;
+	width: 900px;
 }
 
-form {
-	margin: 0 auto;
-	width: 900px;
+.box {
+	width: 925px;
+	height:500px;
+	margin: 50px auto;
+	padding:50px;
+
+}
+
+.clear {
+	clear: both;
+	width: 100%;
+}
+
+button.submit {
+	display: block;
+	margin-top: 10px;
+
 }

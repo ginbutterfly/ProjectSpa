@@ -17,7 +17,31 @@
 </head>
 
 <body>
-	<h1>Book Online</h1>
+	
+	<nav>
+		<div id="logo"><img src="images/logo-1.png"></div>
+		<ul class="links">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Services</a> </li>
+		
+ 		<li class="left"><a href="#">About</a></li>
+		<li><a href="#">Book</a> </li>
+		</ul>
+	</nav>
+
+	<div class = "space">
+		
+
+
+	</div>
+	<header>
+		<h1>Book Online</h1>
+	</header>
+
+
+	<div class = "box">
+
+	<h4>Book Appointments</h4>
 
 	<p>Please select your desired services, date and time. We'll respond shortly to confirm your reservation. Thank you for being kind to yourself, to others and to our environment!
 
@@ -25,33 +49,40 @@
 
 	<!-- <h4>Choose Services</h4> -->
 
-
-	
-
-	<h4>Book Appointments</h4>
-
-	
 	<form><!-- First Name -->
-		<label for="fname">First Name</label>
+		<label for="fname">First Name:</label>
   		<input type="text" id="fname" name="fname">
-  		<label for="lname">Last Name</label>
+  		<label for="lname">Last Name:</label>
   		<input type="text" id="lname" name="lname">
 
   		<label for="Services">Services</label>
     	<select id="Services" name="Services">
-      		<option value="GSF">Green Signature Facial - $78 </option>
-      		<option value="PDF">Probiotic Detox Facial - $85</option>
-      		<option value="RCP">Relaxation Combination Package - $126</option>
-      		<option value="RejCP">Rejuvenation Combination Package - $164</option>
+      		<option value="GSF1">Green Signature Facial - 30 minutes </option>
+      		<option value="GSF2">Green Signature Facial - 60 minutes</option>
+      		<option value="PDF1">Probiotic Detox Facial - 30 minutes</option>
+      		<option value="PDF2">Probiotic Detox Facial - 60 minutes</option>
+      		<option value="CARF2">Calm Anti-Redness Facial - 60 Minutes</option>
+      		<option value="RejAAF">Rejuvenation Anti-Aging Facial - 60 minutes</option>
+      		<option value="HF"> HydraFacial - See specialist</option>
+        
     </select>
-		
 
-		<button class="button">SUBMIT</button>  	
+    <div class = "clear"></div>
 
-  	</form>
+      <form action="action_page.php"><br>
+          <label for="SelectAppoint">Appointment date</label>    
+            <input type="date" name="appointmentdate" min="2015-12-31"><br><br>
+      
+      <form>Select a time:
+  			<input type="time" name="usr_time">
+	</form>
+      
+          <button class = "submit">SUBMIT</button> 
+
+      </form>
 
   	
-
+  	</div>
 
 
 	
